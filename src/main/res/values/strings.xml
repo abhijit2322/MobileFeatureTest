@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">List Of MobileTest</string>
+    <string name="bt_name">List Of BT-Test</string>
+    <string name="call_name">List Of Call-Test</string>
+    <string name="camera_name">List Of Camera-Test</string>
+    <string name="file_name">List Of File-Test</string>
+    <string name="msg_name">List Of Message-Test</string>
+    <string name="sen_name">List Of Sensor-Test</string>
+    <string name="sys_name">List Of System-Test</string>
+    <string name="ui_name">List Of UI-Test</string>
+    <string name="wifi_name">List Of WIFI-Test</string>
+    <string name="misc_name">List Of MISC-Test</string>
+    <string name="data_name">List Of DataSpeed-Test</string>
+    <string name="rep_name">List Of Report</string>
+</resources>

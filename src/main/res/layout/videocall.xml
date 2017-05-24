@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Call (Enter Phone Number)" />
+    <EditText
+        android:hint="Enter Phone Number"
+        android:id="@+id/videophno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Enter Number of Iteration"
+        android:id="@+id/videoiteration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/videocallbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Call" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calllistfull"
+        android:text="Make Call List Full"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/missedcallnoti"
+        android:text="Missed Call Notification bar" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stat"
+        android:text="Call Statistics" />-->
+
+</LinearLayout>

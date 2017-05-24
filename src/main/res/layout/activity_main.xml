@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.abhijit.mobiletest.MainActivity">
+    <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+        <ListView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="BT test"
+            android:id="@+id/bTView"
+            android:visibility="visible"
+            android:clickable="true"
+            android:contextClickable="true">
+        </ListView>
+        <ListView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="DataSpeed Test"
+            android:id="@+id/DataSpeedView">
+        </ListView>
+        <ListView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/SensorView">
+        </ListView>
+        <ListView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/SystemView">
+        </ListView>
+        <ListView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/UItView">
+        </ListView>
+        <ListView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/WifiView">
+        </ListView>
+        <ListView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/MiscView">
+        </ListView>
+        <ListView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/ReportView">
+        </ListView>
+        -->
+    <ListView
+        android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
+</RelativeLayout>
